@@ -8,6 +8,7 @@ import Navigation from "./Navigation";
 import Login from "./Login";
 import Settings from "./Settings";
 import Toolbar from "./appcuesComponents/Toolbar";
+import Deep from "./Deep";
 
 /* 
 This component is wrapped around all the path changes in the app, which then
@@ -27,7 +28,8 @@ const AppcuesRouter = () => {
       <Navigation />
       <Switch>
         <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
+        <Route exact path="/about" component={About} />
+        <Route path="/about/deep" component={Deep} />
         <Route path="/contact" component={Contact} />
         <Route path="/login" component={Login} />
         <Route path="/settings" component={Settings} />
