@@ -9,10 +9,11 @@ import Login from "./Login";
 import Settings from "./Settings";
 import Toolbar from "./appcuesComponents/Toolbar";
 import Deep from "./Deep";
+import Deeper from "./Deeper";
 
-/* 
+/*
 This component is wrapped around all the path changes in the app, which then
-allows Appcues.page to be called every time the path changes. If you want to add any 
+allows Appcues.page to be called every time the path changes. If you want to add any
 new components to the app, you'll want to include them as a <Route> as seen below.
 */
 
@@ -29,7 +30,8 @@ const AppcuesRouter = () => {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
-        <Route path="/about/deep" component={Deep} />
+        <Route exact path="/about/deep" component={Deep} />
+        <Route path="/about/deep/deeper" component={Deeper} />
         <Route path="/contact" component={Contact} />
         <Route path="/login" component={Login} />
         <Route path="/settings" component={Settings} />
