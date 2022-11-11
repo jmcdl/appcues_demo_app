@@ -10,8 +10,8 @@ const Contact = () => {
     <div className="app-content">
       <h1>Contact Us</h1>
       <p>
-        If you have any questions about this app, feel free to reach out to Elijah through{" "}
-        <a href="mailto:elijah@appcues.com">email</a> or through Slack.
+        If you have any questions about this app, feel free to send your comments and suggestions {" "}
+        <a id="trash" target="_blank" rel="noreferrer" href="https://media.istockphoto.com/id/171584082/photo/old-trashcan-clipping-path.jpg?s=612x612&w=0&k=20&c=wOwhB1e6PVmuRtZk7eb8pZ-HmrQjmFQnLXv6O6SaJeA=">here</a>.
       </p>
       <h2>Other resources:</h2>
       <p>
