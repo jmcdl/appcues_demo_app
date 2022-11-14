@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import { Route, Switch, useLocation } from 'react-router-dom';
+import React, { useEffect } from "react";
+import { Route, Switch, useLocation } from "react-router-dom";
 
 import Home from "./Home";
 import About from "./About";
@@ -38,7 +38,7 @@ const AppcuesRouter = () => {
       </Switch>
       <Toolbar />
     </div>
-  )
+  );
 };
 
 export default AppcuesRouter; // This needs to be wrapped by an additional router to function properly. In this app, this is done in App.js
