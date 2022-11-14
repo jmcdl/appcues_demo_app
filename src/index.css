@@ -3,7 +3,8 @@ This is the style sheet!
 Add any styling here that you would like 
 */
 
-* { /* remove all default margins and padding from different browsers*/
+* {
+  /* remove all default margins and padding from different browsers*/
   margin: 0;
   padding: 0;
 }
@@ -95,14 +96,13 @@ img {
   border-radius: 5px;
 }
 
-
 /* Main app styling */
 
 .app-content {
   background-color: rgb(169, 203, 226);
   width: calc(70% - 75px);
   padding: 10px;
-  color:rgb(0, 8, 63);
+  color: rgb(0, 8, 63);
   font-weight: 500;
   display: flex;
   flex-direction: column;
@@ -140,13 +140,14 @@ img {
   font-weight: 500;
 }
 
-.app-content h1, .app-content h2 {
+.app-content h1,
+.app-content h2 {
   text-align: center;
   padding-bottom: 5px;
 }
 
 .property-setter {
-  display:  flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -178,7 +179,7 @@ img {
 }
 
 #toolbar button:hover {
-  background-color: rgb(14, 114, 160)
+  background-color: rgb(14, 114, 160);
 }
 
 #toolbar h2 {
@@ -221,16 +222,16 @@ img {
   font-weight: 700;
   padding-top: 5px;
   /* color: #d3f9d3; */
-  color: #FFB000;
+  color: #ffb000;
 }
 
 #events-log p {
-  color: #66FF66;
+  color: #66ff66;
   margin-left: 5px;
 }
 
 /* custom Appcues styling */
 
-appcues-container:not(.fullscreen)[data-pattern-type='shorty'][data-position^='bottom'] {
+appcues-container:not(.fullscreen)[data-pattern-type="shorty"][data-position^="bottom"] {
   bottom: 0px !important;
 }

@@ -11,13 +11,13 @@ const Settings = () => {
     <div className="app-content">
       <h1>Change your app's settings here</h1>
       <p>Just a generic dropdown menu</p>
-      <select defaultValue="Select one" >
-        <option  disabled='disabled'>Select one</option>
+      <select defaultValue="Select one">
+        <option disabled="disabled">Select one</option>
         <option>Option One</option>
         <option>Option Two</option>
         <option>Option Three</option>
       </select>
-      <SetProperties/>
+      <SetProperties />
     </div>
   );
 };
