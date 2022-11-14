@@ -1,6 +1,6 @@
-/* 
-This is the style sheet! 
-Add any styling here that you would like 
+/*
+This is the style sheet!
+Add any styling here that you would like
 */
 
 * {
@@ -228,6 +228,16 @@ img {
 #events-log p {
   color: #66ff66;
   margin-left: 5px;
+}
+
+.hello-button {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.mood-text {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /* custom Appcues styling */
