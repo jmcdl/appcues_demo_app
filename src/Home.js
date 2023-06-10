@@ -6,6 +6,14 @@ const HAPPY_MOOD = "happy :)";
 
 const Home = () => {
   const [mood, setMood] = useState(ANGRY_MOOD);
+
+  const handleClick = () => {
+    setMood(HAPPY_MOOD);
+    setTimeout(() => {
+      setMood(ANGRY_MOOD);
+    }, 5000);
+  };
+
   return (
     <div className="app-content">
       <h1>Welcome to this feature-rich test application</h1>
@@ -17,7 +25,7 @@ const Home = () => {
       <button
         className="hello-button"
         disabled={mood === HAPPY_MOOD}
-        onClick={() => setMood(HAPPY_MOOD)}
+        onClick={handleClick}
       >
         Say Hello
       </button>
